@@ -29,3 +29,5 @@ pip install -r requirements.txt
 ```
 
 5. Start running the notebook.
+
+> **Note:** For some steps, an OpenAI API key is needed. You can copy the `.env.sample` file and set your API key there.

@@ -1,12 +1,29 @@
-# ChatGPT Conversation Analysis
+# 🤖 ChatGPT Conversation Analysis
+![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Overview
-This project analyzes a dataset of ChatGPT conversations to understand interaction patterns, language usage, and response behaviors.
+Analysis of **89,000 ChatGPT conversations** to understand interaction patterns and response behaviors.
 
-## Dataset
-The analysis uses the [ChatGPT Conversations Dataset](https://www.kaggle.com/datasets/noahpersaud/89k-chatgpt-conversations/data) from Kaggle, which contains approximately 89,000 conversations with ChatGPT.
+## 🔍 Overview
 
-## Setup and Installation
+This project analyzes ChatGPT conversation data to extract insights about language usage, topic distribution, and user interaction patterns. The analysis includes sentiment evaluation, topic categorization, and prompt technique examination.
+
+## ✨ Analysis Components
+
+- Conversation pattern analysis
+- Language usage metrics
+- Sentiment evaluation
+- Topic classification
+- User feedback assessment
+- Prompt technique analysis
+
+## 🚀 Quick Start
+
+### View the analysis
+
+To view the analysis, simple open notebook [chatgpt_analysis.ipynb](chatgpt_analysis.ipynb).
+
+### Development Setup
 
 1. Clone the repository:
 ```bash
@@ -23,11 +40,22 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-4. Install the required packages:
+4. Environment setup
 ```bash
-pip install -r requirements.txt
+cp .env.sample .env
+# Set your OpenAI API key to .env
 ```
 
-5. Start running the notebook.
+## 📊 Dataset
 
-> **Note:** For some steps, an OpenAI API key is needed. You can copy the `.env.sample` file and set your API key there.
+This analysis utilizes [ChatGPT Conversations Dataset](https://www.kaggle.com/datasets/noahpersaud/89k-chatgpt-conversations/data) from Kaggle containing approximately 89,000 conversations.
+
+## 🛠️ Technical Requirements
+
+- Python 3.12+
+- OpenAI API key (for specific cells)
+- Required packages are listed in [requirements.txt](requirements.txt) and will be installed in one of the first cells of the notebook.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

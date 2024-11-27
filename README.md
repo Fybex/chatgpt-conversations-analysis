@@ -1,3 +1,5 @@
+![analysis preview](https://github.com/user-attachments/assets/3b2a8dea-366b-40b0-88ca-280bc0530c20)
+
 # 🤖 ChatGPT Conversation Analysis
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
